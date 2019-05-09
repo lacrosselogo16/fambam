@@ -1,0 +1,52 @@
+update_list	126890	lock=false
+The superpowered ability to fly.
+The superpowered ability to lift a super-human amount of weight.
+The superpowered ability to turn invisible.
+The superpowered ability to move at super-human speed.
+The superpowered ability to emit powerful lasers from the eyes.
+The superpowered ability to withstand blows of tremendous force without any harm.
+The superpowered ability to read minds.
+The superpowered ability to move objects with the mind.
+The superpowered ability to spontaneously generate ice.
+The superpowered ability to spontaneously generate fire.
+The superpowered ability to spontaneously generate wind.
+The superpowered ability to change the shape of one's body to resemble other objects or people.
+The superpowered ability to rapidly heal from illness or injury.
+The superpowered ability to generate a force field around oneself or others.
+The superpowered ability to control the weather.
+The superpowered ability to pass one solid object through another solid object without damaging either.
+The superpowered ability to instantaneously pass from one location to another.
+The superpowered ability to speack to animals.
+The superpowered ability to scale walls without any type of hand or foot holds, or equipment.
+The superpowered ability to see future events.
+The superpowered ability to travel through time to the past or future.
+The superpowered ability to telepathically move stone or dirt, often in large quantities.
+The superpowered ability to spontaneously generate electricity.
+The superpowered ability to telepathically manipulte magnetic metals.
+The superpowered ability to generate super-humanly powerful sound waves.
+The superpowered ability to take control of someone's mind.
+The superpowered ability to change a person's memory.
+The superpowered ability to learn things about the past or future of an object by touching it.
+The superpowered ability to generate acid.
+The superpowered ability to stretch one's bones, muscles, and other tissues.
+The superpowered ability to grow to superhuman size, and return to normal size.
+The superpowered ability to shrink one's body to sub-human size, and return to normal size.
+The superpowered ability to duplicate one's body, and reabsorb the duplicates.
+The superpowered ability to absorb power from others bodies.
+The superpowered ability to negate other's super powers.
+The superpowered ability to manipulate one's own or others luck, for better or worse.
+The superpowered ability to generate illusions of reality.
+The superpowered ability to create connections with alternate dimensions.
+The superpowered ability to remain in one place regardless of external forces.
+The superpowered ability to change ones exterior appearance to blend with the environment.
+The superpowered ability to breath under water.
+The superpowered ability to move with super-human agility.
+The superpowered ability to bend ones joints and limbs beyond normal human ability.
+The superpowered ability to view the infrared spectrum of light.
+The superpowered ability to view x-rays.
+The superpowered ability to view farther and in higher resolution than normal human ability.
+A superpower that increases a person's intelligence beyond normal human limits.
+The superpowered ability to hypnotize other human beings.
+The superpowered ability to grow or control plant life.
+The superpowered ability to access supernatural powers to perform work or gain knowledge.
+update_list	126890	lock=true
