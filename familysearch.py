@@ -1,6 +1,10 @@
 import pandas as pd
 import xlrd as xl
 
+ScriptTypes = {
+	"DESCRIPTOR":1
+}
+
 def WriteScript(file, commands):
 	f= open(file,"w+")
 	for command in commands:
@@ -11,16 +15,23 @@ def ShowScript(commands):
 	for command in commands:
 		print(command)
 
-def GenerateCommands(row, commands):
-	commands.append(row["DESCRIPTION"])
+def GenerateCommands(listId, row, commands):
+	commands.append("create_concept\t" + row["DESCRIPTION"])
+	commands.append("update_concept\t$conceptId\tattrs=" + str(ScriptTypes[row["TYPE"]]) + ":" + row["TYPE"])
+	commands.append("create_term\t" + row["OFFICIAL"] + "\ten\t$conceptId")
+	commands.append("update_list\t" + str(listId) + "\tlock=false")
+	commands.append("update_list\t" + str(listId) + "\tterms=$termId")
+	commands.append("update_list\t" + str(listId) + "\tlock=true")
+
 
 def GenerateControlledVocabularyScript(data, listId):
-	scriptCommands = ["update_list	"+ str(listId) +"	lock=false"]
+	# scriptCommands = ["$conceptId = 0"]
+	# scriptCommands = ["update_list\t"+ str(listId) +"\tlock=false"]
+	scriptCommands = []
 
 	for lab, row in data.iterrows():
-		GenerateCommands(row, scriptCommands)
+		GenerateCommands(listId,row, scriptCommands)
 
-	scriptCommands.append("update_list	"+ str(listId) +"	lock=true")
 	return scriptCommands
 
 def ReadSampleData(file):
@@ -35,3 +46,4 @@ if __name__ == '__main__':
 	script = GenerateControlledVocabularyScript(data, listId)
 	ShowScript(script)
 	WriteScript(file, script)
+	
